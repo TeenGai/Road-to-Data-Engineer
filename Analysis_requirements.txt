@@ -1,0 +1,25 @@
+Product
+- Most expensive and Cheapest Products by Country
+- Top 100 products (aggregating total_amount and quantity sold)
+- Top 10 Products for Each Country
+    - Top 100 products for countries with more than 1000 products
+    - Top 50 products for countries with a product base between 500 and 1000
+    - Top 10 products for countries with a product base between 100 and 500
+    - Top 5 products for countries with less than 100 products
+- Products with Consistently High or Low Demand
+
+Customer 
+- Top Customers by Purchased Amount
+   - Top 100 customers in the UK
+   - Top 10 customers for countries with a customer base between 50 and 100
+   - Top 5 customers for countries with a customer base between 10 and 50
+   - Top 3 customers for countries with less than 10 customers
+
+Revenue
+- Total Sales by Month
+- Total Sales by Year
+- Total Sales by Product
+- Sales Trends Over Time
+- Peak Sales Periods (e.g., daily, weekly, monthly)
+- Sales Distribution by Country
+- Countries with the Highest and Lowest Sales
