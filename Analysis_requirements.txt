@@ -1,7 +1,14 @@
 Product
 - Most Expensive and Cheapest Products by Country
-- Top 100 products overall by Quantity
-- Top 10 Products by Quantity for Each Country
+- Top 100 Products Overall by Quantity
+- Top Products by Quantity for Each Country
+    - Top 100 products for countries with more than 1000 products
+    - Top 50 products for countries with a product base between 500 and 1000
+    - Top 10 products for countries with a product base between 100 and 500
+    - Top 5 products for countries with less than 100 products
+
+- Top 100 Products Overall by Total Sales
+- Top Products by Total Sales for Each Country
     - Top 100 products for countries with more than 1000 products
     - Top 50 products for countries with a product base between 500 and 1000
     - Top 10 products for countries with a product base between 100 and 500
