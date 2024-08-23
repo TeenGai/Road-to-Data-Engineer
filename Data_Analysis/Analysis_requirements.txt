@@ -4,7 +4,7 @@
 - Total Sales by Month
 - Total Sales by Product
 - Sales Distribution by Country
-- Countries with the Highest and Lowest Sales
+- The Highest and Lowest Sales by Country
 
 ### Customer 
 - Top Customers by Purchased Amount
@@ -12,7 +12,7 @@
 - Top 10 Customers Purchased Frequency
 
 ### Product
-- Most Expensive and Cheapest Products by Country
+- The Highest and Lowest Price of Products by Country
 - Top 100 Products Overall by Quantity
 - Top 10 Products by Quantity for Each Country
 - Top 100 Products Overall by Total Sales
