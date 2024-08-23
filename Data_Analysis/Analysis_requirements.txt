@@ -1,0 +1,19 @@
+### Revenue
+- Total Sales Over Time
+- Total Sales by Year
+- Total Sales by Month
+- Total Sales by Product
+- Sales Distribution by Country
+- Countries with the Highest and Lowest Sales
+
+### Customer 
+- Top Customers by Purchased Amount
+- Average Amount Per Transaction
+- Top 10 Customers Purchased Frequency
+
+### Product
+- Most Expensive and Cheapest Products by Country
+- Top 100 Products Overall by Quantity
+- Top 10 Products by Quantity for Each Country
+- Top 100 Products Overall by Total Sales
+- Top 10 Products by Total Sales for Each Country
