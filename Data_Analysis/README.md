@@ -137,7 +137,7 @@ ORDER BY country
 ...
 > *Display only 5 rows...*
 ______________________________________________________________________________________________________________________________
-`Countries with the Highest and Lowest Sales`
+`The Highest and Lowest Sales by Country`
 ```
 WITH total_sales_by_country AS (
   SELECT
@@ -147,14 +147,14 @@ WITH total_sales_by_country AS (
   GROUP BY country
 )
 
-# Highest Sales
+--- Highest Sales ---
 SELECT 
   country,
   total_sales
 FROM total_sales_by_country
 WHERE total_sales = (SELECT MAX(total_sales) FROM total_sales_by_country)
 
-# Lowest Sales
+--- Lowest Sales ---
 SELECT 
   country,
   total_sales
@@ -217,7 +217,7 @@ ORDER BY total_transactions DESC
 LIMIT 10
 ```
 
-**Result of Lowest Sales**
+**Result**
 | customer_name | total_transactions |
 | ------------- | ------------------ |
 | name1         | 241                |
@@ -229,9 +229,9 @@ LIMIT 10
 ...
 > *Display only 5 rows...*
 ______________________________________________________________________________________________________________________________
-`Most Expensive and Cheapest Products by Country`
+`The Highest and Lowest Price of Products by Country`
 ```
-# Highest Sales
+--- Highest Sales ---
 SELECT 
   t1.product_name,
   t1.price,
@@ -248,7 +248,7 @@ ON t1.country = t2.country
   AND t1.price = t2.max_price
 ORDER BY t1.country, t1.product_name
 
-# Lowest Sales
+--- Lowest Sales ---
 SELECT 
   t1.product_name,
   t1.price,
